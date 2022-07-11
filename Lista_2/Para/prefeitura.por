@@ -6,7 +6,7 @@ programa
         real mediaSalario = 0.0, mediaFilhos = 0.0, salarioAtual = 0.0 , filhoAtual = 0.0
         real maiorSalario = 0.0, percentualPessoa = 0.0
 
-        para(inteiro i = 0; i<3 ; i++){
+        para(inteiro i = 0; i<20 ; i++){
 
 
             escreva("Digite o salário do habitante ", i, ": ")
@@ -33,9 +33,9 @@ programa
         real salarioMediaTotal
         real mediaFilhosTotal
 
-        salarioMediaTotal = mediaSalario / 3
-        mediaFilhosTotal = mediaFilhos / 3
-        real percentualPessoaTotal = (percentualPessoa / 3) * 100
+        salarioMediaTotal = mediaSalario / 20
+        mediaFilhosTotal = mediaFilhos / 20
+        real percentualPessoaTotal = (percentualPessoa / 20) * 100
 
 
         escreva("A média é: ", salarioMediaTotal, "\n" )
